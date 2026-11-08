@@ -1,0 +1,16 @@
+{
+  "name": "نظام إدارة المحل",
+  "short_name": "Shop",
+  "description": "نظام إدارة محلات — مبيعات، درج، تقارير",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#1e3a8a",
+  "theme_color": "#1e3a8a",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
