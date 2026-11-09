@@ -1,5 +1,5 @@
 // Service Worker — network-first for navigations so updates land, cache-first for hashed assets.
-const CACHE_NAME = 'shop-pwa-2.1.0'
+const CACHE_NAME = 'shop-pwa-2.2.0'
 const APP_SHELL = ['./', './index.html', './manifest.json']
 
 self.addEventListener('install', (event) => {
