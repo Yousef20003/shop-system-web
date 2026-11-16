@@ -1,4 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <rect width="512" height="512" rx="96" fill="#1e3a8a"/>
-  <text x="256" y="320" font-size="260" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-weight="bold">S</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7B72E6"/>
+      <stop offset="0.55" stop-color="#5B5EC6"/>
+      <stop offset="1" stop-color="#43499E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rounded-square tile -->
+  <rect x="64" y="64" width="896" height="896" rx="216" fill="url(#bg)"/>
+
+  <!-- receipt glyph -->
+  <g>
+    <path d="M 362 362 Q 362 330 392 330 H 632 Q 662 330 662 362 V 720
+             L 612 702 L 562 720 L 512 702 L 462 720 L 412 702 L 362 720 Z"
+          fill="#FFFFFF"/>
+    <!-- receipt lines -->
+    <rect x="402" y="382" width="220" height="24" rx="12" fill="#4C4FA7" opacity="0.5"/>
+    <rect x="402" y="436" width="220" height="24" rx="12" fill="#4C4FA7" opacity="0.5"/>
+    <rect x="402" y="490" width="132" height="24" rx="12" fill="#4C4FA7" opacity="0.5"/>
+    <rect x="402" y="586" width="220" height="6" rx="3" fill="#4C4FA7" opacity="0.25"/>
+  </g>
+
+  <!-- check badge -->
+  <circle cx="662" cy="720" r="84" fill="#3E4294"/>
+  <path d="M 620 722 L 650 752 L 706 692" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
